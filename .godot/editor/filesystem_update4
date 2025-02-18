@@ -1,2 +1,11 @@
 res://node_2d.tscn
 res://02SI009.tscn
+res://Card1.tscn
+res://player_hand.gd
+res://Cards/02SI009.tscn
+res://Card.gd
+res://card_manager.gd
+res://card_slot.gd
+res://Cards/Card.gd
+res://card_slot.tscn
+res://deck.gd

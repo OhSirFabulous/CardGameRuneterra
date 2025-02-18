@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b44peoq8ysw71"
-path="res://.godot/imported/02SI009.png-95f4dac74d4862079d344848067a942b.ctex"
+uid="uid://cfrwqhawgtut1"
+path="res://.godot/imported/Summoner 27s_Rift_Order_LoR_Card_Back.png-3f945478f3c86b4b538a3b3227ffed52.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://02SI009.png"
-dest_files=["res://.godot/imported/02SI009.png-95f4dac74d4862079d344848067a942b.ctex"]
+source_file="res://Assets/Summoner 27s_Rift_Order_LoR_Card_Back.png"
+dest_files=["res://.godot/imported/Summoner 27s_Rift_Order_LoR_Card_Back.png-3f945478f3c86b4b538a3b3227ffed52.ctex"]
 
 [params]
 
