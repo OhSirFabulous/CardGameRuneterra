@@ -4,13 +4,13 @@
 [ext_resource type="PackedScene" uid="uid://ct8bof3i3vyxk" path="res://card_slot.tscn" id="3_2wmll"]
 [ext_resource type="Script" path="res://Scripts/player_hand.gd" id="3_4ckib"]
 [ext_resource type="Texture2D" uid="uid://cfrwqhawgtut1" path="res://Assets/Summoner 27s_Rift_Order_LoR_Card_Back.png" id="4_a5mxw"]
-[ext_resource type="Script" path="res://Scripts/deck.gd" id="4_tqw2u"]
-[ext_resource type="Script" path="res://Scripts/input_manager.gd" id="6_6dqe0"]
+[ext_resource type="Script" path="res://deck.gd" id="4_tqw2u"]
+[ext_resource type="Script" path="res://node_2d.gd" id="6_ipkyv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cv1tt"]
 size = Vector2(356, 498)
 
-[node name="Node2D" type="Node2D"]
+[node name="Main" type="Node2D"]
 
 [node name="Card Manager" type="Node2D" parent="."]
 script = ExtResource("1_ehgsc")
@@ -25,12 +25,11 @@ position = Vector2(327, 309)
 script = ExtResource("3_4ckib")
 
 [node name="Deck" type="Node2D" parent="."]
-position = Vector2(1532, 680)
+position = Vector2(1550, 650)
 scale = Vector2(1.2, 1.2)
 script = ExtResource("4_tqw2u")
 
 [node name="Sprite2D" type="Sprite2D" parent="Deck"]
-z_index = -2
 position = Vector2(150, 190)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("4_a5mxw")
@@ -43,11 +42,5 @@ scale = Vector2(0.5, 0.5)
 position = Vector2(-2, -14)
 shape = SubResource("RectangleShape2D_cv1tt")
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Deck"]
-offset_left = 65.8334
-offset_top = 63.3333
-offset_right = 241.833
-offset_bottom = 306.333
-
 [node name="InputManager" type="Node2D" parent="."]
-script = ExtResource("6_6dqe0")
+script = ExtResource("6_ipkyv")

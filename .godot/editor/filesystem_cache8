@@ -1,21 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739841290
+::res://::1740006314
 02SI010-full.png::CompressedTexture2D::6102911891930639575::1739825121::1739825121::1::::<><>::
 Card1.tscn::PackedScene::3301258096490150005::1739832232::0::1::::<><>::res://02SI010.png
 card_slot.tscn::PackedScene::6174639886773254112::1739841276::0::1::::<><>::res://Scripts/card_slot.gd<>uid://duwv7jnx66adl::::res://Assets/CardSlot.png
 icon.svg::CompressedTexture2D::8473821481568060908::1739754135::1739754139::1::::<><>::
-node_2d.tscn::PackedScene::5174962819011220230::1739841290::0::1::::<><>::res://Scripts/card_manager.gd<>uid://ct8bof3i3vyxk::::res://card_slot.tscn<>res://Scripts/player_hand.gd
+input_manager.gd::GDScript::-1::1740006314::0::1::::<>Node2D<>::
+node_2d.gd::GDScript::-1::1739998680::0::1::::<>Node2D<>::
+node_2d.tscn::PackedScene::5174962819011220230::1740006320::0::1::::<><>::res://Scripts/card_manager.gd<>uid://ct8bof3i3vyxk::::res://card_slot.tscn<>res://Scripts/player_hand.gd<>uid://cfrwqhawgtut1::::res://Assets/Summoner 27s_Rift_Order_LoR_Card_Back.png<>res://Scripts/deck.gd<>res://input_manager.gd
 ::res://Assets/::1739841512
 02SI009.png::CompressedTexture2D::7556132015091809283::1739825327::1739841221::1::::<><>::
 02SI010.png::CompressedTexture2D::3006829742020455432::1739825134::1739841221::1::::<><>::
 CardSlot.png::CompressedTexture2D::8609787930562586745::1739832061::1739841221::1::::<><>::
 Summoner 27s_Rift_Order_LoR_Card_Back.png::CompressedTexture2D::5160244722610539688::1739841511::1739841512::1::::<><>::
 ::res://CardIMG/::1739841221
-::res://Cards/::1739841288
-02SI009.tscn::PackedScene::3272074110213518455::1739841288::0::1::::<><>::res://Scripts/Card.gd<>uid://dfwinjhj3ani6::::res://Assets/02SI009.png
+::res://Cards/::1740005916
 02SI010.tscn::PackedScene::5081389015126903852::1739826678::0::1::::<><>::
-::res://Scripts/::1739841288
-Card.gd::GDScript::-1::1739833766::0::1::::<>Node2D<>::
-card_manager.gd::GDScript::-1::1739833197::0::1::::<>Node2D<>::
+Card.tscn::PackedScene::3272074110213518455::1739841288::0::1::::<><>::res://Scripts/Card.gd<>uid://dfwinjhj3ani6::::res://Assets/02SI009.png
+::res://Scripts/::1740006314
+Card.gd::GDScript::-1::1740005378::0::1::::<>Node2D<>::
+card_manager.gd::GDScript::-1::1740002744::0::1::::<>Node2D<>::
 card_slot.gd::GDScript::-1::1739833285::0::1::::<>Node2D<>::
-player_hand.gd::GDScript::-1::1739833079::0::1::::<>Node2D<>::
+deck.gd::GDScript::-1::1740006314::0::1::::<>Node2D<>::
+player_hand.gd::GDScript::-1::1740005558::0::1::::<>Node2D<>::
